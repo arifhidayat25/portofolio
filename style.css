@@ -1,0 +1,221 @@
+body {
+	margin: 0;
+	padding: 0;
+background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+	}
+.logo {
+		font-size: 35px;
+		line-height: 70px;
+		font-weight: bold;
+		color: black;
+		padding: 0 20px;
+		text-transform: uppercase;
+	}
+nav{
+		height: 70px;
+
+	}
+ul{
+		float: right;
+		margin-right: 70px;
+	}
+ul li {
+		display: inline-block;
+		line-height: 40px;
+		margin: 0 2px;
+	}
+ul li a {
+		font-size: 20px;
+		color: black;
+		padding: 10px 17px;
+		border-radius: 3px;
+		text-decoration: none;
+		background-color: none;
+	}
+.isi{
+		display: grid;
+	}
+.awal {
+		display: inline-block;
+		justify-content: center;
+		align-items: center;
+		font-size: 50px;
+		padding-left: 90px;
+		padding-top: 100px
+}
+ h5 {
+	letter-spacing: 5px;
+	font-size: 20PX;
+	margin-top: -60px;
+	margin-left: 100PX;
+	
+}
+.view {
+	margin-left: 150px;
+	margin-bottom: 50px;
+	display: flex;
+		width: 200px;
+		height: 40px;
+		border-radius: 10px;
+		border: 3px solid purple;
+		display: inline-flex;
+		font-size: 20px;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+		
+}
+.view:hover {
+	background-color: rgb(210, 204, 224);
+}
+.about {
+	float: left;
+	height: 100vh;
+}
+.about h1 {
+	padding-left: 200px;
+}
+.about img {
+	float: left;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+ }
+ .container{
+	background-color: #ffffff;
+	background-image: linear-gradient(135deg, #d0e0eb 0%, #9599E2 100%);
+	height: 70vh;
+ } 
+ .isi {
+	font-size: 30px;
+	padding-top: 80px;
+	padding-left: 10px;
+ }
+.portofolio {
+	background-color: #ffffff;
+	background-image: linear-gradient(135deg, #d0e0eb 0%, #9599E2 100%);
+	height: 50vh;
+}
+ 
+ .porto {
+	display: flex;
+    position: absolute;
+    top: 200%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 230px;
+    background: #262626;
+    overflow: hidden;
+}
+.container .ke1,
+.porto .text1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.porto .ke1 {
+    top: 0;
+    left: 0;
+}
+.porto:hover .ke1 {
+    top: 0;
+    left: 100%;
+}
+.porto .ke1 img {
+    width: 140%;
+	height: 150;
+}
+.porto .text1 {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 15px 30px;
+}
+.porto:hover .text1 {
+    top: 0;
+    left: 0%;
+}
+.porto .text1 a {
+	font-size: 20px;
+	text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.porto .text1 p {
+    margin: 20px 0 0;
+    color: #fff;
+}
+.port {
+	display: flex;
+    position: absolute;
+    top: 200%;
+    right: 40%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 230px;
+    background: #262626;
+    overflow: hidden;
+}
+.port .text2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.port .ke2 {
+    top: 0;
+    left: 0;
+}
+.port:hover .ke2 {
+    top: 0;
+    left: 100%;
+}
+.port .ke2 img {
+    width: 150%;
+	height: 100%;
+}
+.port .text2 {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 15px 30px;
+}
+.port:hover .text2 {
+    top: 0;
+    left: 0%;
+}
+.port .text2 a {
+	font-size: 20px;
+	text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.port .text2 p {
+    margin: 20px 0 0;
+    color: #fff;
+}
+footer {
+    background-color: rgba(27, 27, 27, 1);
+    padding: 5px 0;
+    margin-top: 0px;
+    border-radius: 10px;
+  }
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    margin-left: 350px;
+}
