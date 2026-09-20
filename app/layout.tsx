@@ -15,8 +15,8 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: 'Portfolio - ARFID ',
-  description: 'Portfolio pribadi Arif Hidayat - Pengembang Web dan Mobile',
+  title: 'Portfolio - ACHMAD ARIF HIDAYAT ',
+  description: 'Portfolio pribadi Achmad Arif Hidayat - IT Support Specialist',
 };
 
 export default function RootLayout({
