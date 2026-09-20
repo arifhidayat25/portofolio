@@ -1,0 +1,60 @@
+{
+  "name": "ACHMAD ARIF HIDAYAT",
+  "roles": [
+    "IT Support Specialist",
+    "Network Engineer",
+    "System Administrator",
+    "Tech Problem Solver"
+  ],
+  "description": "Spesialis IT Support dengan pengalaman menangani infrastruktur jaringan, administrasi sistem, dan resolusi masalah teknis. Berdedikasi menghadirkan solusi cepat dan andal untuk kebutuhan IT organisasi.",
+  "techStack": ["Windows Server", "Linux", "VMware", "Active Directory"],
+  "social": {
+    "github": "https://github.com/arifhidayat25",
+    "linkedin": "https://linkedin.com/in/arifhidayat25",
+    "email": "achmadarifh25@gmail.com",
+    "whatsapp": "+62 895-0660-9757",
+    "location": "Malang, Indonesia"
+  },
+  "journey": [
+    {
+      "hash": "a1b2c3d",
+      "date": "2025",
+      "title": "Senior IT Support Specialist",
+      "description": "Menangani infrastruktur kritis dan resolusi masalah level 3.",
+      "icon": "Server",
+      "branch": "main",
+      "additions": 500,
+      "deletions": 0
+    },
+    {
+      "hash": "e4f5g6h",
+      "date": "2024",
+      "title": "Network Administrator",
+      "description": "Mengelola topologi jaringan dan konfigurasi CISCO.",
+      "icon": "Network",
+      "branch": "career",
+      "additions": 350,
+      "deletions": 50
+    },
+    {
+      "hash": "i7j8k9l",
+      "date": "2022",
+      "title": "Helpdesk Support",
+      "description": "Dukungan tier 1 & 2 untuk pengguna internal dan troubleshooting hardware.",
+      "icon": "Headset",
+      "branch": "career",
+      "additions": 200,
+      "deletions": 0
+    },
+    {
+      "hash": "m0n1o2p",
+      "date": "2022",
+      "title": "Mahasiswa Universitas Gajayana Malang",
+      "description": "Jurusan Sistem Informasi, fokus pada infrastruktur IT.",
+      "icon": "GraduationCap",
+      "branch": "origin",
+      "additions": 100,
+      "deletions": 0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "id": "networking",
+      "name": "Networking",
+      "icon": "Network",
+      "skills": [
+        { "name": "TCP/IP", "level": 95, "color": "#00d4d4" },
+        { "name": "VLAN", "level": 85, "color": "#00d4d4" },
+        { "name": "DNS/DHCP", "level": 90, "color": "#00d4d4" },
+        { "name": "VPN", "level": 88, "color": "#00d4d4" }
+      ]
+    },
+    {
+      "id": "os_server",
+      "name": "OS & Server",
+      "icon": "Server",
+      "skills": [
+        { "name": "Windows Server", "level": 92, "color": "#00d4d4" },
+        { "name": "Linux Admin", "level": 85, "color": "#00d4d4" },
+        { "name": "Active Directory", "level": 90, "color": "#00d4d4" },
+        { "name": "Group Policy", "level": 88, "color": "#00d4d4" },
+        { "name": "Hyper-V/VMware", "level": 80, "color": "#00d4d4" }
+      ]
+    },
+    {
+      "id": "security_tools",
+      "name": "Security & Tools",
+      "icon": "Shield",
+      "skills": [
+        { "name": "Firewall", "level": 85, "color": "#00d4d4" },
+        { "name": "Antivirus", "level": 95, "color": "#00d4d4" },
+        { "name": "Remote Desktop", "level": 98, "color": "#00d4d4" },
+        { "name": "Wireshark", "level": 75, "color": "#00d4d4" }
+      ]
+    }
+  ],
+  "overview": [
+    {
+      "icon": "Wrench",
+      "name": "Troubleshooting",
+      "level": 95,
+      "color": "from-cyan-400 to-teal-500",
+      "description": "Hardware & Software Issue Resolution"
+    },
+    {
+      "icon": "Network",
+      "name": "Networking & Infrastructure",
+      "level": 80,
+      "color": "from-cyan-400 to-teal-500",
+      "description": "Network Setup & Maintenance"
+    },
+    {
+      "icon": "ShieldCheck",
+      "name": "Security & Compliance",
+      "level": 75,
+      "color": "from-cyan-400 to-teal-500",
+      "description": "Endpoint Security & Audits"
+    },
+    {
+      "icon": "Cloud",
+      "name": "Cloud & Virtualization",
+      "level": 75,
+      "color": "from-cyan-400 to-teal-500",
+      "description": "Azure, AWS, VMware"
+    }
+  ]
+}

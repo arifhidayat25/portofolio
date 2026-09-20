@@ -1,0 +1,47 @@
+{
+  "name": "ACHMAD ARIF HIDAYAT",
+  "roles": [
+    "IT Support Specialist",
+    "Network Engineer",
+    "System Administrator",
+    "Tech Problem Solver"
+  ],
+  "description": "Spesialis IT Support  menangani infrastruktur jaringan, administrasi sistem, dan resolusi masalah teknis. Berdedikasi menghadirkan solusi cepat dan andal untuk kebutuhan IT organisasi.",
+  "techStack": ["Windows Server", "Linux", "VMware", "Active Directory"],
+  "stats": [
+    { "label": "Years Experience", "value": 1, "suffix": "+" },
+    { "label": "Tickets Resolved", "value": 10, "suffix": "+" },
+    { "label": "Users Supported", "value": 5, "suffix": "+" },
+    { "label": "Projects Done", "value": 5, "suffix": "+" }
+  ],
+  "social": {
+    "github": "https://github.com/arifhidayat25",
+    "linkedin": "https://linkedin.com/in/arifhidayat25",
+    "email": "achmadarifh25@gmail.com",
+    "whatsapp": "+62 895-0660-9757",
+    "location": "Malang, Indonesia"
+  },
+  "journey": [
+    {
+      "hash": "a1b2c3d",
+      "date": "2025",
+      "title": "Staff IT Support ITSK Dr. Soepraoen",
+      "description": "Turut menangani pemeliharaan, troubleshooting, perakitan, dan konfigurasi perangkat komputer serta memenuhi kebutuhan teknologi informasi dan administrasi di lingkungan kampus",
+      "icon": "Server",
+      "branch": "main",
+      "additions": 500,
+      "deletions": 0
+    },
+    
+    {
+      "hash": "m0n1o2p",
+      "date": "2022",
+      "title": "Mahasiswa Universitas Gajayana Malang",
+      "description": "Jurusan Sistem Informasi, fokus pada infrastruktur IT.",
+      "icon": "GraduationCap",
+      "branch": "origin",
+      "additions": 100,
+      "deletions": 0
+    }
+  ]
+}

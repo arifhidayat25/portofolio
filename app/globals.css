@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;700;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 4%; /* #050508 */
+    --foreground: 210 40% 98%; /* #f8fafc */
+    
+    --card: 226 47% 10%; /* #0f1729 */
+    --card-foreground: 210 40% 98%;
+    
+    --popover: 226 47% 10%;
+    --popover-foreground: 210 40% 98%;
+    
+    --primary: 180 100% 42%; /* #00d4d4 */
+    --primary-foreground: 240 10% 4%;
+    
+    --secondary: 189 82% 69%; /* #67e8f9 */
+    --secondary-foreground: 240 10% 4%;
+    
+    --muted: 226 47% 15%;
+    --muted-foreground: 214 32% 91%;
+    
+    --accent: 180 100% 42%;
+    --accent-foreground: 240 10% 4%;
+    
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 226 47% 15%;
+    --input: 226 47% 15%;
+    --ring: 180 100% 42%;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  /* Glassmorphism utilities */
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  
+  .glass-card {
+    @apply bg-[#0f1729]/60 backdrop-blur-xl border border-[#00d4d4]/20 rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.8)];
+  }
+
+  .glass-panel {
+    @apply bg-[#0a0a12]/80 backdrop-blur-lg border border-[#00d4d4]/10;
+  }
+  
+  /* Text gradients */
+  .text-gradient-cyber {
+    @apply bg-gradient-to-br from-[#ffffff] via-[#67e8f9] to-[#00d4d4] bg-clip-text text-transparent;
+  }
+
+  /* Hover glows */
+  .hover-glow-cyber {
+    @apply transition-all duration-300;
+  }
+  .hover-glow-cyber:hover {
+    box-shadow: 0 0 25px rgba(0, 212, 212, 0.4);
+    border-color: rgba(0, 212, 212, 0.6);
+  }
+}
+
+/* Scrollbar styling - minimal */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-[#0f1729] rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#00d4d4];
+}
+
+/* Selection styling */
+::selection {
+  @apply bg-[#00d4d4]/30 text-[#ffffff];
+}

@@ -1,0 +1,40 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Anindita",
+      "role": "Product Manager di TechCorp",
+      "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "content": "Arif memberikan pekerjaan yang luar biasa pada platform e-commerce kami. Perhatian terhadap detail dan solusi inovatif melampaui harapan kami.",
+      "rating": 5,
+      "project": "Platform E-commerce"
+    },
+    {
+      "id": 2,
+      "name": "Ilham Fauzi",
+      "role": "CEO di StartupX",
+      "avatar": "https://images.pexels.com/photos/1181717/pexels-photo-1181717.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "content": "Bekerja dengan Arif adalah pengubah permainan untuk startup kami. Aplikasi mobile yang mereka kembangkan membantu kami menjangkau target audiens dengan efektif.",
+      "rating": 5,
+      "project": "Pengembangan Aplikasi Mobile"
+    },
+    {
+      "id": 3,
+      "name": "Siti Rahma",
+      "role": "Direktur Desain di Creative Agency",
+      "avatar": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "content": "Website portfolio yang Arif buat untuk agensi kami benar-benar menakjubkan. Ini dengan sempurna menangkap visi kreatif dan identitas merek kami.",
+      "rating": 5,
+      "project": "Website Portfolio"
+    },
+    {
+      "id": 4,
+      "name": "David Wijaya",
+      "role": "VP Engineering di DataFlow",
+      "avatar": "https://images.pexels.com/photos/1181562/pexels-photo-1181562.jpeg?auto=compress&cs=tinysrgb&w=150",
+      "content": "Arif mengimplementasikan dashboard analitik kami dengan presisi yang luar biasa. Kemampuan visualisasi data real-time persis seperti yang kami butuhkan.",
+      "rating": 5,
+      "project": "Dashboard Analitik"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Network Infrastructure Migration",
+      "description": "Pemindahan dan peningkatan infrastruktur jaringan menggunakan peralatan CISCO.",
+      "fullDescription": "Melakukan migrasi infrastruktur jaringan secara menyeluruh dari arsitektur lama ke infrastruktur baru berbasis CISCO. Mengkonfigurasi VLAN, routing OSPF, dan memastikan keamanan jaringan antar departemen.",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1280&h=720&fit=crop",
+      "technologies": [
+        "CISCO",
+        "VLAN",
+        "Routing"
+      ],
+      "language": "Infrastructure",
+      "languageColor": "#00d4d4",
+      "github": "",
+      "live": "#",
+      "stars": 0,
+      "forks": 0,
+      "status": "COMPLETED",
+      "metrics": {
+        "Downtime": "0 hrs",
+        "Users": "250+"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Active Directory Implementation",
+      "description": "Implementasi Windows Server dan Active Directory untuk manajemen pengguna terpusat.",
+      "fullDescription": "Merancang dan mengimplementasikan Windows Server 2022 beserta Active Directory Domain Services. Menerapkan Group Policy Objects (GPO) untuk memperkuat kebijakan keamanan di seluruh endpoint klien.",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1280&h=720&fit=crop",
+      "technologies": [
+        "Windows Server",
+        "GPO",
+        "Security"
+      ],
+      "language": "System Admin",
+      "languageColor": "#00d4d4",
+      "github": "",
+      "live": "#",
+      "stars": 0,
+      "forks": 0,
+      "status": "COMPLETED",
+      "metrics": {
+        "Endpoints": "150+",
+        "Uptime": "99.9%"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Helpdesk System Setup",
+      "description": "Penerapan sistem tiket bantuan untuk mengelola insiden dan permintaan layanan TI.",
+      "fullDescription": "Mengintegrasikan JIRA Service Desk untuk melacak semua permintaan TI internal. Mengkonfigurasi Service Level Agreements (SLA), alur kerja eskalasi otomatis, dan portal layanan mandiri bagi karyawan.",
+      "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=1280&h=720&fit=crop",
+      "technologies": [
+        "JIRA",
+        "Monitoring",
+        "SLA"
+      ],
+      "language": "Service Desk",
+      "languageColor": "#00d4d4",
+      "github": "",
+      "live": "#",
+      "stars": 0,
+      "forks": 0,
+      "status": "COMPLETED",
+      "metrics": {
+        "Tickets": "500+",
+        "Satisfaction": "4.8/5"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Cybersecurity Hardening",
+      "description": "Peningkatan keamanan siber pada endpoint dan server perusahaan.",
+      "fullDescription": "Melakukan audit keamanan komprehensif, memperbarui konfigurasi firewall, dan mendistribusikan solusi antivirus generasi berikutnya ke seluruh jaringan perusahaan untuk melindungi dari ancaman modern.",
+      "image": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=1280&h=720&fit=crop",
+      "technologies": [
+        "Firewall",
+        "Antivirus",
+        "Policies"
+      ],
+      "language": "Security",
+      "languageColor": "#00d4d4",
+      "github": "",
+      "live": "#",
+      "stars": 0,
+      "forks": 0,
+      "status": "IN PROGRESS",
+      "metrics": {
+        "Vulnerabilities": "Resolved",
+        "Audits": "Passed"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Server Virtualization",
+      "description": "Konsolidasi server fisik menggunakan platform virtualisasi VMware.",
+      "fullDescription": "Memindahkan 15 server fisik warisan ke dalam kluster VMware vSphere. Ini sangat mengurangi biaya perangkat keras, konsumsi energi, dan menyederhanakan proses pencadangan dan pemulihan bencana.",
+      "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=1280&h=720&fit=crop",
+      "technologies": [
+        "VMware",
+        "Hyper-V",
+        "Storage"
+      ],
+      "language": "Virtualization",
+      "languageColor": "#00d4d4",
+      "github": "",
+      "live": "#",
+      "stars": 0,
+      "forks": 0,
+      "status": "COMPLETED",
+      "metrics": {
+        "VMs": "30+",
+        "Cost": "-40%"
+      }
+    }
+  ]
+}
